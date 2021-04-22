@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- STYLES CSS -->
+        <link rel="stylesheet" href="static/css/style.css">
+        <title>Climate Change Trends in the US</title>
+    </head>
+    
+    <body>
+        <div class="box-area">
+            <header>
+                <div class="wrapper">
+                    <nav class='navbar'>
+                        <!-- NAVIGATION BAR TITLES -->
+                        <ul>
+                            <li><a href="#trends">Climate Trends</a></li>
+                            <li><a href="#temperature">Temperature Findings</a></li>
+                            <li><a href="#emissions">Emissions Findings</a></li>
+                            <li><a href="#models">Models</a></li>
+                            <li><a href="#predictions">Predictions</a></li>
+                            <li><a href="#energy">Energy</a></li>
+                            <li><a href="#states">State Comparison</a></li>
+                            <li><a href="#capita">Energy By Capita</a></li>
+                            <li><a href="#conclusions">Conclusions</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="banner-area">
+                <h2> CLIMATE CHANGE IN THE US</h2>
+            </div>
+
+            
+            <!-- MAIN BODY WITH INFORMATION/VISUALIZATIONS -->
+            <div class="content-area">
+
+                <!-- FACTS/STATS CARDS -->
+                <div class="cards">
+                    <div class= "card">
+                        <h3>Why should you care?</h3>
+                        <div class ="imgBx">
+                            <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-9Honjll100fDH7Bqdp-aKQpeT5GhlQxV_Q&usqp=CAU">
+                        </div>
+                        <div class ="imgContent">
+                            <p>The worst impacts of climate change could be irreversible by 2030.</p>
+                        </div>
+                    </div>
+    
+                    <div class= "card">
+                        <h3>Not convinced?</h3>
+                        <div class ="imgBx">
+                            <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl_OZqlBzQ_17rXBwSWQIwlDpWNqzlyuiN2A&usqp=CAU">
+                        </div>
+                        <div class ="imgContent">
+                            <p>More than 1 million species are at risk of extinction by climate change.</p>
+                        </div>
+                    </div>
+
+                    <div class= "card">
+                        <h3>Time waits for no one</h3>
+                        <div class ="imgBx">
+                            <img src = "https://untappedcities.com/wp-content/uploads/2020/09/Climate-Clock-Union-Square-South-Metronome-Numbers-NYC-4.jpg">
+                        </div>
+                        <div class ="imgContent">
+                            <p>The 20 warmest years on record have been in the past 22 years.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="wrapper">
+                    <section id="Introduction">
+                        <h2>Introduction</h2>
+                        <p> 
+                            Overview of this analysis is to gain insight on climate change trends over time in the United States. 
+                            <ul>
+                                <li>Can we quantify the human impact on climate change in the USA?</li>
+                                <li>Does human impact affect how states individually experience climate change?</li>
+                                <li>Are there climate change trends evident in temperature over time?</li>
+                                <li>Is there a possibility to predict any other feature like CO2, year, state disasters from the datasets?</li>
+                            </ul>
+                        </p>
+                    </section>
+
+                    <!-- TRENDS DASHBOARD -->
+                    <section id="trends">
+                        <h2>Climate Trends</h2>
+                        <div class='section1' id='viz1618090256411' style='position: relative'>
+                            <noscript>
+                              <a href='#'>
+                                <img alt='Dashboard 1 ' 
+                                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;ClimateChangeTrends_16174174601980&#47;Dashboard1&#47;1_rss.png' 
+                                style='border: none' />
+                              </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='ClimateChangeTrends_16174174601980&#47;Dashboard1' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;ClimateChangeTrends_16174174601980&#47;Dashboard1&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>                
+                          
+                        <script type='text/javascript'>                    
+                            var divElement = document.getElementById('viz1618090256411');                    
+                            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                            if ( divElement.offsetWidth > 800 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1800px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='877px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else if ( divElement.offsetWidth > 500 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1800px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='877px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height='1427px';
+                            }                     
+                            var scriptElement = document.createElement('script');                    
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                        </script>
+            
+                    </section>
+            
+                    <!-- TEMPERATURE DASHBOARD -->
+                    <section id="temperature">
+                        <h2>Temperature Findings</h2>
+                        <p>
+                            Examine temperature of the States over time using the slide bar.
+                        </p>
+                        <div class='section2' id='viz1617677024233' style='position: relative'>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt='Temp_Key_Findings ' 
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;Temp_CO2_highlights&#47;Temp_Key_Findings&#47;1_rss.png' 
+                                    style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='Temp_CO2_highlights&#47;Temp_Key_Findings' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;Temp_CO2_highlights&#47;Temp_Key_Findings&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' />
+                            </object>
+                        </div>                
+            
+                        <script type='text/javascript'>                    
+                            var divElement = document.getElementById('viz1617677024233');                    
+                            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                            if ( divElement.offsetWidth > 800 ) 
+                            { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } 
+                            else if ( divElement.offsetWidth > 500 ) { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } 
+                            else { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height='727px';}                     
+                            var scriptElement = document.createElement('script');                    
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                        </script>
+            
+                    </section>
+            
+            
+                    <!-- CO2 EMISSIONS DASHBOARD -->
+                    <section id="emissions">
+                        <h2> Emissions Findings</h2>
+                        <p>
+                            Press play to see the change of CO2 emissions and changes in Renewable and Primary energy use over time.
+                        </p>
+                        <div class='section3' id='viz1617749687957' style='position: relative'>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt='CO2_Key_Findings ' 
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;Temp_CO2_highlights&#47;CO2_Key_Findings&#47;1_rss.png' 
+                                    style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='Temp_CO2_highlights&#47;CO2_Key_Findings' />
+                                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;Temp_CO2_highlights&#47;CO2_Key_Findings&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' />
+                            </object>
+                        </div>        
+                                    
+                        <script type='text/javascript'>                    
+                        var divElement = document.getElementById('viz1617749687957');                    
+                        var vizElement = divElement.getElementsByTagName('object')[0];                    
+                        if ( divElement.offsetWidth > 800 ) 
+                        { 
+                            vizElement.style.width='100%';
+                            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                        } 
+                        else if ( divElement.offsetWidth > 500 ) 
+                        { 
+                            vizElement.style.width='100%';
+                            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                        } 
+                        else { 
+                            vizElement.style.width='100%';vizElement.style.height='877px';
+                        }                     
+                        var scriptElement = document.createElement('script');                    
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                        </script>
+                    </section>
+            
+            
+                    <!-- MACHINE LEARNING MODEL DASHBOARD -->
+                    <section id="models">
+                        <h2> Models</h2>
+                        <p>
+                            The datasets used for this analysis are pertaining to climate change in the United States of America. 
+                            Human interventions contributing to climate change in the contiguous USA are specifically considered along with time, location, gdp and population. 
+                            After the data was processed, features were selected for thorough analysis based on the understanding of the features and its likely contribution to climate change.
+                            Given that this dataset has lot to be explored, to gain understanding Unsupervised Machine learning model was employed.
+                            Post Unsupervised ML, it was determined that temperature, CO2, year, state, disasters of a state could be considered as potential targets for supervised ML with rest of the features supplied as features.
+                        </p>
+
+                        <!-- UNSUPERVISED MODEL -->
+                        <div class='tableauPlaceholder' id='viz1618180464389' style='position: relative'>
+                            <h3> Unsupervised Model</h3>
+                            <p>
+                                Use the Class/Cluster map to select a State and compare it's statistics to the Minimum, Maximum and Averages in it's class. 
+                            </p>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt='Cluster Trends ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;Climate_Change_Classes&#47;ClusterTrends&#47;1_rss.png' style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='Climate_Change_Classes&#47;ClusterTrends' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;Climate_Change_Classes&#47;ClusterTrends&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>                
+                            
+                        <script type='text/javascript'>                    
+                            var divElement = document.getElementById('viz1618180464389');                    
+                            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                            if ( divElement.offsetWidth > 800 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1500px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='1027px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else if ( divElement.offsetWidth > 500 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1500px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='1027px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height='1327px';}                     
+                            var scriptElement = document.createElement('script');                    
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                        </script>
+                        
+                        <!-- SUPERVISED MODEL -->
+                        <div class='tableauPlaceholder' id='viz1618111880654' style='position: relative'>
+                            <h3> Supervised Model</h3>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt='NN-SKL Models ' 
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MY&#47;MYK9TJCPX&#47;1_rss.png' style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='path' value='shared&#47;MYK9TJCPX' /> 
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MY&#47;MYK9TJCPX&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' />
+                            </object>
+                        </div>                
+                        
+                        <script type='text/javascript'>                    
+                            var divElement = document.getElementById('viz1618111880654');                    
+                            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                            if ( divElement.offsetWidth > 800 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1500px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='1027px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else if ( divElement.offsetWidth > 500 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1500px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='1027px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height='727px';}                     
+                            var scriptElement = document.createElement('script');                   
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                        </script>
+
+                    </section>
+            
+            
+                    <!-- PREDICTED TEMPERTURE AND CO2 EMISSIONS DASHBOARD -->
+                    <section id="predictions">
+                        <h2>Predictions</h2>
+                        <p>
+                            After conducting an in-depth analysis of the features and testing various machine learning model combinations, it was learned that predicted temperature with just state and year has a near perfect R-squared of 97.55. This led to the inference that the dataset has confounding features and some of the features of the dataset are behaving as proxies for US states(location). Statistically, this causes spurious association.
+                            Considering the above observations, a model was built to predict temperature based on only the human impact features CO2 emissions, population, real GDP, renewable and non-renewable energy consumption features. The R-Squared for this model was found to be 43.68%.
+                            Human-related features were able to predict the state name with 98.48% accuracy using just a simple neural network consisting of a single hidden layer of 100 nodes. This implies that state name (location) has a great influence on GDP, population, CO2 emission and energy consumption. It is reasonable to believe that location contains unique features like demographics and information about the local economy which influence these human-related features.
+                        </p>
+                        <div class='section5' id='viz1618111822965' style='position: relative'>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt='Feature Models ' 
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Predictions_16178534877910&#47;FeatureModels&#47;1_rss.png' 
+                                    style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='Predictions_16178534877910&#47;FeatureModels' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Predictions_16178534877910&#47;FeatureModels&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' />
+                            </object>
+                        </div>                
+                        <script type='text/javascript'>                    
+                            var divElement = document.getElementById('viz1618111822965');                    
+                            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                            if ( divElement.offsetWidth > 800 ) { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else if ( divElement.offsetWidth > 500 ) { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height='777px';}                     
+                            var scriptElement = document.createElement('script');                    
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+                        </script>
+
+                        <div class='tableauPlaceholder' id='viz1618348973452' style='position: relative'>
+                            <noscript>
+                                <a href='#'><img alt='CO2 Model ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Predictions_16178534877910&#47;CO2Model&#47;1_rss.png' style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='Predictions_16178534877910&#47;CO2Model' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Predictions_16178534877910&#47;CO2Model&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' /></object>
+                        </div>                
+                        <script type='text/javascript'>                    
+                        var divElement = document.getElementById('viz1618348973452');                    
+                        var vizElement = divElement.getElementsByTagName('object')[0];                    
+                        if ( divElement.offsetWidth > 800 ) {
+                            vizElement.style.minWidth='420px';vizElement.style.maxWidth='1800px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='927px';
+                            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } 
+                        else if ( divElement.offsetWidth > 500 ) { 
+                            vizElement.style.minWidth='420px';vizElement.style.maxWidth='1800px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='927px';
+                            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } 
+                        else {
+                            vizElement.style.width='100%';vizElement.style.height='727px';}                     
+                            var scriptElement = document.createElement('script');                    
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+                        </script>
+                    </section>
+
+                    <!-- ENERGY CONSUMPTION DASHBOARD -->
+                    <section id="energy">
+                        <h2>Energy Consumption</h2>
+                        <p>
+                            Compare average renewable and non-renewable energy use between classes by selecting a class or classes using the filter below.
+
+                        </p>
+                        <div class='section6' id='viz1618112137527' style='position: relative'>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt='Energy use by Cluster ' 
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;Climate_Change_Classes&#47;EnergyusebyCluster&#47;1_rss.png' 
+                                    style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='Climate_Change_Classes&#47;EnergyusebyCluster' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;Climate_Change_Classes&#47;EnergyusebyCluster&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' />
+                            </object>
+                        </div>                
+                        <script type='text/javascript'>                    
+                            var divElement = document.getElementById('viz1618112137527');                    
+                            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                            if ( divElement.offsetWidth > 800 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1500px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='1027px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else if ( divElement.offsetWidth > 500 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1500px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='1027px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height='1027px';}                     
+                            var scriptElement = document.createElement('script');                    
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                        </script>
+                    </section>
+
+
+                    <!-- STATE COMPARISON DASHBOARD -->
+                    <section id="states">
+                        <h2>State Comparison</h2>
+                        <p>
+                            Compare states based on renewable and non-renewable energy given their average temperature and CO2 emissions selecting them on the map below.
+                        </p>
+                        <div class='section7' id='viz1618093135105' style='position: relative'>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt='Dashboard 1 ' 
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ResultsbyState&#47;Dashboard1&#47;1_rss.png' 
+                                    style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='ResultsbyState&#47;Dashboard1' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ResultsbyState&#47;Dashboard1&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>                
+                        <script type='text/javascript'>                    
+                            var divElement = document.getElementById('viz1618093135105');                    
+                            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                            if ( divElement.offsetWidth > 800 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1800px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='827px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else if ( divElement.offsetWidth > 500 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1800px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='827px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height='1027px';}                     
+                            var scriptElement = document.createElement('script');                    
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                        </script>
+                     </section>   
+                    
+                    <!-- ENERGY PER CAPITA  DASHBOARD -->
+                    <section id="capita">
+                        <h2>Energy By Capita</h2>
+                        <p>
+                            Compare states based on renewable and non-renewable energy per capita.
+                        </p>
+                        <div class='section8' id='viz1619106552859' style='position: relative'>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt='Energy Use Per Capita ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pe&#47;PerCapita_Highlights&#47;EnergyUsePerCapita&#47;1_rss.png' style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='PerCapita_Highlights&#47;EnergyUsePerCapita' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pe&#47;PerCapita_Highlights&#47;EnergyUsePerCapita&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>                
+                        <script type='text/javascript'>                    
+                            var divElement = document.getElementById('viz1619106552859');                    
+                            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                            if ( divElement.offsetWidth > 800 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1800px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='927px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else if ( divElement.offsetWidth > 500 ) { 
+                                vizElement.style.minWidth='420px';
+                                vizElement.style.maxWidth='1800px';
+                                vizElement.style.width='100%';
+                                vizElement.style.minHeight='587px';
+                                vizElement.style.maxHeight='927px';
+                                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                            } else { 
+                                vizElement.style.width='100%';
+                                vizElement.style.height='1777px';}                     
+                            var scriptElement = document.createElement('script');                    
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                        </script>
+
+
+                     <!-- CONCLUSIONS SECTION -->
+                     <section id="conclusions">
+                        <h2>Conclusions</h2>
+                        <div class="facts">
+                            <div class="card">
+                                <div class="circle">
+                                    <h2>01</h2>
+                                </div>
+
+                                <div class="content">
+                                    <p>A model that solely uses human-related features to predict climate change measured in average annual state temperature is not accurate</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="circle">
+                                    <h2>02</h2>
+                                </div>
+
+                                <div class="content">
+                                    <p>Location has major influence both temperature and human-related features</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="circle">
+                                    <h2>03</h2>
+                                </div>
+
+                                <div class="content">
+                                    <p>A model is created that quantifies the impact of a state's energy consumption pattern on CO2 emissions, the main culprit of rising temperatures</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="circle">
+                                    <h2>04</h2>
+                                </div>
+
+                                <div class="content">
+                                    <p>Energy consumption from non-renewable sources such as coal, petroleum, and natural gas contribute to increasing CO2 emissions</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="circle">
+                                    <h2>05</h2>
+                                </div>
+
+                                <div class="content">
+                                    <p>Energy consumption from renewable sources such as biomass, hydropower, solar, and wind either reduce or decrease CO2 emissions</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                
+
+                        <!-- BACK TO TOP BUTTON -->
+                        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>   
+                    </section>
+                </div>
+            </div>            
+        </div>
+        <!-- MAIN JS -->
+        <script src="static/js/main.js"></script>
+    </body>
+</html>
+
